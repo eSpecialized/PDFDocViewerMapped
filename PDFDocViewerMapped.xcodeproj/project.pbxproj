@@ -15,6 +15,9 @@
 		356C3F6620507CDF009D10DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 356C3F6520507CDF009D10DE /* main.m */; };
 		356C3F752050A87D009D10DE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356C3F742050A87D009D10DE /* WebKit.framework */; };
 		356C3F772050A8A9009D10DE /* BillsPictures.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 356C3F762050A8A9009D10DE /* BillsPictures.pdf */; };
+		356C3F7B2050AA31009D10DE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 356C3F782050AA31009D10DE /* Podfile */; };
+		356C3F7C2050AA31009D10DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 356C3F792050AA31009D10DE /* README.md */; };
+		356C3F7D2050AA31009D10DE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 356C3F7A2050AA31009D10DE /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		356C3F6520507CDF009D10DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		356C3F742050A87D009D10DE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		356C3F762050A8A9009D10DE /* BillsPictures.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BillsPictures.pdf; sourceTree = "<group>"; };
+		356C3F782050AA31009D10DE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		356C3F792050AA31009D10DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		356C3F7A2050AA31009D10DE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 		356C3F4A20507CDF009D10DE = {
 			isa = PBXGroup;
 			children = (
+				356C3F7A2050AA31009D10DE /* LICENSE */,
+				356C3F782050AA31009D10DE /* Podfile */,
+				356C3F792050AA31009D10DE /* README.md */,
 				356C3F5520507CDF009D10DE /* PDFDocViewerMapped */,
 				356C3F5420507CDF009D10DE /* Products */,
 				356C3F732050A87D009D10DE /* Frameworks */,
@@ -144,7 +153,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356C3F7C2050AA31009D10DE /* README.md in Resources */,
+				356C3F7B2050AA31009D10DE /* Podfile in Resources */,
 				356C3F6320507CDF009D10DE /* LaunchScreen.storyboard in Resources */,
+				356C3F7D2050AA31009D10DE /* LICENSE in Resources */,
 				356C3F6020507CDF009D10DE /* Assets.xcassets in Resources */,
 				356C3F772050A8A9009D10DE /* BillsPictures.pdf in Resources */,
 				356C3F5E20507CDF009D10DE /* Main.storyboard in Resources */,
